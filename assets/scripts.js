@@ -71,25 +71,12 @@ var getIp = async (event) => {
         $(displayBoard).show();
 
     } catch (error) {
+        $(displayBoard).hide();
+
         console.log('error occured');
         alert('Error Occured')
     }
 
 }
-/*
-as: "AS55836 Reliance Jio Infocomm Limited"
-city: "Patna"
-country: "India"
-countryCode: "IN"
-isp: "Reliance Jio Infocomm Limited"
-lat: 25.5908
-lon: 85.1348
-org: "Reliance Jio infocomm ltd"
-query: "47.29.106.68"
-region: "BR"
-regionName: "Bihar"
-status: "success"
-timezone: "Asia/Kolkata"
-zip: "800025" */
 
 button.addEventListener('click', getIp);

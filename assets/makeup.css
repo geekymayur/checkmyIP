@@ -1,7 +1,8 @@
 body {
     background-color: #145aa4;
     color: white;
-    padding-bottom: 150px;
+    /* padding-bottom: 150px; */
+    min-height: 100vh;
 }
 
 .header {
@@ -9,12 +10,18 @@ body {
     color: white;
     padding: 25px;
 }
-#btn-holder{
+
+#btn-holder {
     height: auto;
     width: 400px;
     margin: auto;
 }
-#btn-holder img{
+
+#btn-holder img {
     width: 100%;
     cursor: pointer;
+}
+
+iframe {
+    min-height: 500px;
 }
