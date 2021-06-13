@@ -1,6 +1,7 @@
 body {
     background-color: #145aa4;
     color: white;
+    padding-bottom: 150px;
 }
 
 .header {
@@ -8,4 +9,12 @@ body {
     color: white;
     padding: 25px;
 }
-
+#btn-holder{
+    height: auto;
+    width: 400px;
+    margin: auto;
+}
+#btn-holder img{
+    width: 100%;
+    cursor: pointer;
+}
